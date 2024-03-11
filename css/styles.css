@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+html {
+    background-color: lightskyblue;
+    color: dimgrey;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 10px; 
+}
+
+body {
+    margin: 0 auto;
+    min-width: 768px;
+    max-width: 1024px;
+}
+
+header {
+    font-size: 2.2rem; 
+}
+
+header h1,
+header h2 {
+    text-shadow: -2px 2px 0 black; 
+}
+
+header a {
+    text-decoration: none; 
+}
+
+header h2 {
+    text-transform: uppercase; 
+}
+
+main {
+    font-size: 1.8rem; 
+    line-height: 1.5; 
+    text-align: justify; 
+    background-color: white;
+    display: flex;
+}
+
+main section {
+    width: 60%;
+}
+
+main aside {
+    width: 40%;
+}
+
+main section time {
+    font-style: italic;
+}
+
+.new-feature {
+    padding-left: 25px;
+    background-image: url("../images/new.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#emailAddress {
+    font-weight: bold;
+}
+
+[rel="external"] {
+    padding-right: 20px;
+    background-image: url("../images/extlink.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+main a {
+    text-decoration: none;
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+blockquote::first-letter {
+    font-size: 2em;
+}
+
+footer {
+    font-size: 1.6rem; 
+}
+
+footer p {
+    text-align: right;
+}
+
+section > p {
+    text-indent: 1em;
+}
+
+h1, h2, footer {
+    color: white;
+}
